@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title id="title">Serpent</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="terminal.css">
+        <link rel="stylesheet" href="node_modules/xterm/css/xterm.css">
+        <script src="terminal.js"></script>
+    </head>
+    <body>
+        <div id="border">
+            <nav style="-webkit-app-region: drag">
+                <img src="Static/Logo.png" class="logo">
+                <div id="controls" style="-webkit-app-region: no-drag">
+                    <div id="minimize2">
+                        <span></span>
+                    </div>
+                    <div id="maximize2">
+                        <span id="circle"></span>
+                    </div>
+                    <div id="close" onclick="window.close()">
+                        <span>&times;</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="terminal"></div>
+        <script src="index.js" async defer></script>
+    </body>
+</html>

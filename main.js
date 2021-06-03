@@ -9,8 +9,14 @@ let mainWindow;
 
 app.on('ready', function(){
     mainWindow = new BrowserWindow({ width: 1280, height: 720, resizable: true, frame: false, icon: "Static/Logo.ico"});
+    termWindow = new BrowserWindow({ width: 800, height: 600, resizable: false, frame: false, icon: "Static/Logo.ico"});
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'window.html'),
+        protocol: 'file:',
+        slashes: true
+    }));
+    termWindow.loadURL(url.format({
+        pathname: path.join(__dirname, 'terminal.html'),
         protocol: 'file:',
         slashes: true
     }));

@@ -9,6 +9,7 @@
   "author": "Matthew Zenn",
   "license": "MIT",
   "dependencies": {
-    "electron": "^13.1.0"
+    "electron": "^13.1.0",
+    "xterm": "^4.12.0"
   }
 }
