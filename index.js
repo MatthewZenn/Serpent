@@ -1,12 +1,6 @@
-var title = document.getElementById('title').innerHTML;
 var maximize = document.getElementById("maximize")
 
-document.getElementById('titleShown').innerHTML = title;
 maximize.addEventListener("click", Maximize)
-
-if (window.innerWidth == screen.width) {
-    document.getElementById("circle").innerHTML = "&triangledown;"
-}
 
 function Maximize() {
     if (window.innerWidth == screen.width) {
