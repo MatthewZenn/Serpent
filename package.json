@@ -1,0 +1,14 @@
+{
+  "name": "serpant",
+  "version": "1.0.0",
+  "description": "a python ide",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Matthew Zenn",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^13.1.0"
+  }
+}
