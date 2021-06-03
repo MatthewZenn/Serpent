@@ -23,13 +23,14 @@ body, html {
     display: block;
     width: 100%;
     height: 35px;
+    background-color: rgb(10, 10, 10);
 }
 
 #border nav #titleShown {
     width: 30%;
     height: 100%;
     line-height: 35px;
-    color: white;
+    color: rgb(179, 179, 179);
     font-size: 1rem;
     float: left;
     padding: 0 0 0 1em;
@@ -42,7 +43,7 @@ body, html {
     width: 100px;
     height: 100%;
     line-height: 35px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: lighter;
     font-family: monospace;
     cursor: pointer;

@@ -19,3 +19,12 @@ function Maximize() {
         document.getElementById("circle").innerHTML = "&triangledown;"
     }
 }
+
+window.addEventListener('resize', () => {
+    if (window.innerWidth == screen.width) {
+        document.getElementById("circle").innerHTML = "&triangledown;"
+    }
+    else {
+        document.getElementById("circle").innerHTML = "&triangle;"
+    }
+  });
