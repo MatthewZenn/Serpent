@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+        <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
     </head>
     <body>
         <div id="border">
@@ -17,13 +18,19 @@
                         <span>&minus;</span>
                     </div>
                     <div id="maximize">
-                        <span id="circle">&triangle;</span>
+                        <span id="circle">&triangledown;</span>
                     </div>
                     <div id="close" onclick="window.close()">
                         <span>&times;</span>
                     </div>
                 </div>
             </nav>
+        </div>
+        <div class="panel">
+            <img class="buttons" id="new">
+            <img class="buttons" id="open">
+            <img class="buttons" id="save">
+            <img class="buttons" id="run">
         </div>
         <script src="index.js" async defer></script>
     </body>

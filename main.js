@@ -8,7 +8,10 @@ Menu.setApplicationMenu(null);
 let mainWindow;
 
 app.on('ready', function(){
-    mainWindow = new BrowserWindow({ width: 1280, height: 720, resizable: true, frame: false, icon: "Static/Logo.ico"});
+    var screenElectron = electron.screen;
+    var mainScreen = screenElectron.getPrimaryDisplay();
+    var dimensions = mainScreen.size;
+    mainWindow = new BrowserWindow({ width: dimensions.width, height: dimensions.height, resizable: true, frame: false, icon: "Static/Logo.ico"});
     termWindow = new BrowserWindow({ width: 800, height: 600, resizable: false, frame: false, icon: "Static/Logo.ico"});
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'window.html'),
