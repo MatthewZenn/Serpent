@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^13.1.0",
+    "electron-rebuild": "^2.3.5",
+    "node-pty": "^0.10.1",
     "xterm": "^4.12.0"
   }
 }

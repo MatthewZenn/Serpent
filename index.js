@@ -1,3 +1,5 @@
+const consoleBtn = document.getElementById('run')
+
 var maximize = document.getElementById("maximize")
 
 maximize.addEventListener("click", Maximize)
