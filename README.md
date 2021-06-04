@@ -1,3 +1,3 @@
-![Logo](https://github.com/MatthewZenn/Serpent/raw/main/Static/icon.ico)
+![Logo](https://github.com/MatthewZenn/Serpent/raw/main/Static/Logo.ico)
 
-**Serpent Python IDE**
+# Serpent Python IDE
